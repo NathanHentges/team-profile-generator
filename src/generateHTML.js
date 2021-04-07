@@ -44,16 +44,16 @@ function genHTML(cards) {
 
 function genManagerCard(name, id, email, office) {
   return `<div class="col-12 col-md-6 col-lg-4">
-  <div class="card text-light bg-primary mb-3">
+  <div class="card text-light bg-primary mb-3" style="box-shadow: 0 .5rem .5rem rgba(0,0,0,.4) !important;">
     <div class="card-header">
       <h3 class="text-light">${name}</h3>
       <h3 class="text-light"><i class="fa fa-user" aria-hidden="true"></i> Manager</h3>
     </div>
     <div class="card-body">
       <ul class="list-group">
-        <li class="list-group-item bg-primary text-light">ID: ${id}</li>
-        <li class="list-group-item bg-primary text-light">Email: <a class="text-info" href="mailto:${email}">${email}</a></li>
-        <li class="list-group-item bg-primary text-light">Office number: ${office}</li>
+        <li class="list-group-item bg-dark text-light">ID: ${id}</li>
+        <li class="list-group-item bg-dark text-light">Email: <a class="text-info" href="mailto:${email}">${email}</a></li>
+        <li class="list-group-item bg-dark text-light">Office number: ${office}</li>
       </ul>
     </div>
   </div>
@@ -63,16 +63,16 @@ function genManagerCard(name, id, email, office) {
 
 function genEngineerCard(name, id, email, github) {
   return `<div class="col-12 col-md-6 col-lg-4">
-  <div class="card text-light bg-primary mb-3">
+  <div class="card text-light bg-primary mb-3" style="box-shadow: 0 .5rem .5rem rgba(0,0,0,.4) !important;">
     <div class="card-header">
       <h3 class="text-light">${name}</h3>
       <h3 class="text-light"><i class="fa fa-cogs" aria-hidden="true"></i> Engineer</h3>
     </div>
     <div class="card-body">
       <ul class="list-group">
-        <li class="list-group-item bg-primary text-light">ID: ${id}</li>
-        <li class="list-group-item bg-primary text-light">Email: <a class="text-info" href="mailto:${email}">${email}</a></li>
-        <li class="list-group-item bg-primary text-light">GitHub: <a class="text-info" href="https://www.github.com/${github}/">${github}</a></li>
+        <li class="list-group-item bg-dark text-light">ID: ${id}</li>
+        <li class="list-group-item bg-dark text-light">Email: <a class="text-info" href="mailto:${email}">${email}</a></li>
+        <li class="list-group-item bg-dark text-light">GitHub: <a class="text-info" href="https://www.github.com/${github}/">${github}</a></li>
       </ul>
     </div>
   </div>
@@ -82,16 +82,16 @@ function genEngineerCard(name, id, email, github) {
 
 function genInternCard(name, id, email, school) {
   return `<div class="col-12 col-md-6 col-lg-4">
-  <div class="card text-light bg-primary mb-3">
+  <div class="card text-light bg-primary mb-3" style="box-shadow: 0 .5rem .5rem rgba(0,0,0,.4) !important;">
     <div class="card-header">
       <h3 class="text-light">${name}</h3>
       <h3 class="text-light"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Intern</h3>
     </div>
     <div class="card-body">
       <ul class="list-group">
-        <li class="list-group-item bg-primary text-light">ID: ${id}</li>
-        <li class="list-group-item bg-primary text-light">Email: <a class="text-info" href="mailto:${email}">${email}</a></li>
-        <li class="list-group-item bg-primary text-light">School: ${school}</li>
+        <li class="list-group-item bg-dark text-light">ID: ${id}</li>
+        <li class="list-group-item bg-dark text-light">Email: <a class="text-info" href="mailto:${email}">${email}</a></li>
+        <li class="list-group-item bg-dark text-light">School: ${school}</li>
       </ul>
     </div>
   </div>
