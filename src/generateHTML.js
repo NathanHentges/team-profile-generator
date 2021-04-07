@@ -2,7 +2,11 @@
 const fs = require("fs");
 
 function writeHTML(html) {
-  fs.writeFile()
+  fs.writeFile("./dist/index.html", html, (err) => {
+    if (err) {
+      console.log(err);
+    }
+  });
 }
 
 function genHTML(cards) {
@@ -96,6 +100,7 @@ function genInternCard(name, id, email, school) {
 
 
 module.exports = {
+  writeHTML,
   genHTML,
   genManagerCard,
   genEngineerCard,
